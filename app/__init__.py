@@ -9,5 +9,5 @@ def create_app(config_name):
     app.config.from_object(config_options[config_name])
     return app
 
-from app import views
+from . import views
     
