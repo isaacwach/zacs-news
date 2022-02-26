@@ -7,7 +7,7 @@ app= create_app('development')
 #defining manager instance
 manager= Manager(app) 
 manager.add_command('server', Server)
-@manager.command()
+@manager.command
 def test():
     import unittest
     tests= unittest.TestLoader().discover('tests')
