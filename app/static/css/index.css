@@ -10,3 +10,6 @@
   overflow-y: auto;
   height: 90vh; /* NEW */
 }
+.nav {
+    background-color: black;
+}
