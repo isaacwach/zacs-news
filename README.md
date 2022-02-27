@@ -2,7 +2,7 @@
 ## By Isaac Wachira
 ## Description
 This is a news application. Users can use the application to access and read the news headlines daily. The application uses a news API to display various news categories including business, sports, scince and technology.
-![Landing page photo](https://github.com/isaacwach/password-locker/blob/master/images/password-lock.png)
+![Landing page photo](https://github.com/isaacwach/zacs-news/blob/master/app/static/images/news-app.png)
 ## Author information
 I am a full stack developer, with impeccable skills in web development, UI design, and problem solving skills using algorithms. Besides, i have knowlege in enterprise development, financial accounting and business management.
 ## Setup/Installation Requirements
