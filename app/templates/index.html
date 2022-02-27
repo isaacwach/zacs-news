@@ -21,18 +21,21 @@
                             <div class="card-columns">
                                 {% for headlines in headlines %}
 
-                                <div class="card">
+                                <div class="card card-flex">
+                                   <div class="image">
                                     <img class="card" src="{{headlines.image}}" alt="Card image cap" size="100px180">
+                                   </div>
                                     <div class="card-body">
                                         <h5 class="card-title">{{headlines.author}}</h5>
                                         <p class="card-text">{{headlines.description}}</p>
                                         <a href="{{headlines.url}}">
                                             <p class="card-text">Click here for more details!</p>
                                         </a>
+                                        <div class="card-footer">
+                                            <small class="text-muted">Publish date:{{headlines.time}}</small>
+                                        </div>
                                     </div>
-                                    <div class="card-footer">
-                                        <small class="text-muted">Publish date:{{headlines.time}}</small>
-                                    </div>
+                                    
                                 </div>
                                 {% endfor %}
                             </div>

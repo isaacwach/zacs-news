@@ -30,3 +30,18 @@
 #navbarText {
     float: right;
 }
+.card-flex{
+    display: flex;
+    border: 1px solid black;
+    margin-top: 20px;
+    box-shadow: 5px 10px gray;
+}
+.image{
+    max-width: 60%;
+}
+.card-flex img {
+    width: 400px;
+}
+.card-body{
+    padding-left: 30px;
+}
